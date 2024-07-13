@@ -5,20 +5,17 @@ VisualStudioVersion = 17.4.33205.214
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Microservices", "Microservices", "{2B461C22-68F6-4376-B057-FB7F47EC05D0}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ApiGateway", "ApiGateway\ApiGateway.csproj", "{4F2760DE-4C7A-43E1-A1B7-37E82E5B4753}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "ApiGateway", "ApiGateway\ApiGateway.csproj", "{4F2760DE-4C7A-43E1-A1B7-37E82E5B4753}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "AuthService", "AuthService\AuthService.csproj", "{BB1E2E19-7CD7-4F75-B36F-DC7E07E2A3B5}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "AuthService", "AuthService\AuthService.csproj", "{BB1E2E19-7CD7-4F75-B36F-DC7E07E2A3B5}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "TransactionService", "TransactionService\TransactionService.csproj", "{D236DEFE-2BEF-46DE-A280-51691CAF50F2}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "TransactionService", "TransactionService\TransactionService.csproj", "{D236DEFE-2BEF-46DE-A280-51691CAF50F2}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "AccountService", "AccountService\AccountService.csproj", "{9D3E3A23-D294-4794-9475-E5A3726E862E}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "AccountService", "AccountService\AccountService.csproj", "{9D3E3A23-D294-4794-9475-E5A3726E862E}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "NotificationService", "NotificationService\NotificationService.csproj", "{C9ACF189-5D43-4A5E-9949-524BF0F315AF}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "NotificationService", "NotificationService\NotificationService.csproj", "{C9ACF189-5D43-4A5E-9949-524BF0F315AF}"
 EndProject
-Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Common", "Common", "{29BEFD23-B8D1-49A6-8292-A4F8B3ABE998}"
-	ProjectSection(SolutionItems) = preProject
-		AppSettings.cs = AppSettings.cs
-	EndProjectSection
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Common", "Common\Common.csproj", "{F0E753AC-4E97-4CBB-8041-4CC7DD4355D8}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -46,6 +43,10 @@ Global
 		{C9ACF189-5D43-4A5E-9949-524BF0F315AF}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{C9ACF189-5D43-4A5E-9949-524BF0F315AF}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{C9ACF189-5D43-4A5E-9949-524BF0F315AF}.Release|Any CPU.Build.0 = Release|Any CPU
+		{F0E753AC-4E97-4CBB-8041-4CC7DD4355D8}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{F0E753AC-4E97-4CBB-8041-4CC7DD4355D8}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{F0E753AC-4E97-4CBB-8041-4CC7DD4355D8}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{F0E753AC-4E97-4CBB-8041-4CC7DD4355D8}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
@@ -56,7 +57,7 @@ Global
 		{D236DEFE-2BEF-46DE-A280-51691CAF50F2} = {2B461C22-68F6-4376-B057-FB7F47EC05D0}
 		{9D3E3A23-D294-4794-9475-E5A3726E862E} = {2B461C22-68F6-4376-B057-FB7F47EC05D0}
 		{C9ACF189-5D43-4A5E-9949-524BF0F315AF} = {2B461C22-68F6-4376-B057-FB7F47EC05D0}
-		{29BEFD23-B8D1-49A6-8292-A4F8B3ABE998} = {2B461C22-68F6-4376-B057-FB7F47EC05D0}
+		{F0E753AC-4E97-4CBB-8041-4CC7DD4355D8} = {2B461C22-68F6-4376-B057-FB7F47EC05D0}
 	EndGlobalSection
 	GlobalSection(ExtensibilityGlobals) = postSolution
 		SolutionGuid = {DEEB4D28-54E8-4BCA-8B0C-49942B275A52}
